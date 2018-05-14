@@ -2,23 +2,9 @@ package com.agroall.gessica.relatorios.dataobjects;
 
 import java.util.Collection;
 
-import com.agroall.gessica.dataobjects.aspects.Persistent;
-
-public class RelatorioEstoque implements Persistent {
+public class RelatorioEstoque {
 	
-	private Integer id;
-
 	private Collection<ProdutoEstoque> produtos;
-	
-	@Override
-	public Integer getId() {
-		return id;
-	}
-	
-	@Override
-	public void setId(Integer id) {
-		this.id = id;
-	}
 	
 	public Collection<ProdutoEstoque> getProdutos() {
 		return produtos;

@@ -1,7 +1,7 @@
 package com.agroall.gessica.relatorios.services;
 
-import com.agroall.gessica.services.GessicaService;
+import com.agroall.gessica.services.ServiceImpl;
 
-public abstract class RelatoriosService<DATAOBJECT> extends GessicaService<DATAOBJECT> {
+public abstract class RelatoriosService<DATAOBJECT> extends ServiceImpl<DATAOBJECT> {
 	
 }

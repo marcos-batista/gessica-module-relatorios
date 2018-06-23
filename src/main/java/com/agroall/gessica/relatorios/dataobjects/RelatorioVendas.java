@@ -4,13 +4,13 @@ import java.util.Collection;
 
 public class RelatorioVendas {
 	
-	private Collection<OrdemVenda> vendas;
+	private Collection<Venda> vendas;
 	
-	public Collection<OrdemVenda> getVendas() {
+	public Collection<Venda> getVendas() {
 		return vendas;
 	}
 	
-	public void setVendas(Collection<OrdemVenda> vendas) {
+	public void setVendas(Collection<Venda> vendas) {
 		this.vendas = vendas;
 	}
 	
